@@ -26,3 +26,30 @@ author:
 
 # Add these to your existing _config.yml
 keywords: ciencia de datos, inteligencia artificial, ITAM
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.project-card {
+  background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.skill-tag {
+  background: #2a2a2a;
+  color: #ffffff;
+  
+  &:hover {
+    background: #3a3a3a;
+  }
+}
+
+a {
+  color: #64b5f6;
+  
+  &:hover {
+    color: #90caf9;
+  }
+}

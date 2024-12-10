@@ -14,10 +14,9 @@ Soy Estudiante de la Licenciatura en Ciencia de Datos en el ITAM, apasionado por
 ## Hobbies y Pasiones
 <div class="skill-list">
   <span class="skill-tag">Star Wars</span>
-  <span class="skill-tag">League of Legends (Garen Main y Ambessa Main in progress...)</span>
-  <span class="skill-tag">Basketball</span>
-  <span class="skill-tag">Música</span>
-  <span class="skill-tag">Grupo Favorito: Inspector</span>
+  <span class="skill-tag">League of Legends (Top laner)</span>
+  <span class="skill-tag">Basketball (Golden State Warriors)</span>
+  <span class="skill-tag">Música (Inspector)</span>
 </div>
 
 ## Idiomas
@@ -33,9 +32,5 @@ Soy Estudiante de la Licenciatura en Ciencia de Datos en el ITAM, apasionado por
   <p>He trabajado en varios proyectos, pero no los he compartido aquí.</p>
 </div>
 
-<div class="project-card">
-  <h3> Portafolio en Desarrollo</h3>
-  <p>En este espacio podrás encontrar los proyectos que iré desarrollando durante mi carrera o que pondre en un futuro.</p>
-</div>
 
 
