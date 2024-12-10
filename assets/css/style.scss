@@ -110,13 +110,13 @@ header {
   p.view {
     margin: 0 0 25px;
     
-    a {
+    a { //a es un selector de CSS que se utiliza para aplicar estilos a un elemento que contiene texto.
       display: block;
-      color: #666;
+      color: #64b5f6;
       text-decoration: none;
       padding: 10px;
       
-      small {
+      small { //small es un selector de CSS que se utiliza para aplicar estilos a un elemento que contiene texto.
         font-size: 14px;
         color: #999;
         display: block;
@@ -124,14 +124,14 @@ header {
         font-family: 'Bubblegum Sans', cursive;
       }
       
-      strong {
+      strong { //strong es un selector de CSS que se utiliza para aplicar estilos a un elemento que contiene texto.
         font-size: 18px;
         display: block;
-        color: #222;
+        color: #222; 
         font-family: 'Patrick Hand', cursive;
       }
       
-      &:hover {
+      &:hover { //hover es un selector de CSS que se utiliza para aplicar estilos cuando el usuario pasa el cursor sobre un elemento.
         color: #069;
         transform: scale(1.05);
         transition: transform 0.2s ease;
