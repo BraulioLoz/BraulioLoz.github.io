@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Braulio Lozano Cuevas
 
 ## Sobre mí
