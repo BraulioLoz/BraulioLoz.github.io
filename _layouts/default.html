@@ -17,14 +17,33 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <p class="view">
+          <a href="https://github.com/BraulioLoz">
+            <small>GitHub</small>
+            <strong>@BraulioLoz</strong>
+          </a>
+        </p>
+        
+        <p class="view">
+          <a href="https://www.linkedin.com/in/braulio-lozano-3656352b0">
+            <small>LinkedIn</small>
+            <strong>Braulio Lozano</strong>
+          </a>
+        </p>
+
+        <p class="view">
+          <a href="mailto:brauliozc03@gmail.com">
+            <small>Email</small>
+            <strong>brauliozc03@gmail.com</strong>
+          </a>
+        </p>
       </header>
       <section>
         {{ content }}
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>Este proyecto es mantenido por <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

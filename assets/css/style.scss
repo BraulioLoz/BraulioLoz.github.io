@@ -105,3 +105,36 @@ a {
   display: block;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+header {
+  p.view {
+    margin: 0 0 20px;
+    
+    a {
+      display: block;
+      color: #666;
+      text-decoration: none;
+      
+      small {
+        font-size: 11px;
+        color: #999;
+        display: block;
+        margin-bottom: 3px;
+      }
+      
+      strong {
+        font-size: 14px;
+        display: block;
+        color: #222;
+      }
+      
+      &:hover {
+        color: #069;
+        
+        strong {
+          color: #069;
+        }
+      }
+    }
+  }
+}
