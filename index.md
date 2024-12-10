@@ -2,10 +2,12 @@
 layout: default
 ---
 
-# Braulio Lozano Cuevas
+## Itamita por diversión 
 
 ## Sobre mí
-Soy Estudiante de la Licenciatura en Ciencia de Datos en el ITAM, apasionado por la Inteligencia Artificial y su potencial para crear soluciones que beneficien a las personas. Uno de mis proyectos de vida es desarrollar una IA asistente similar a Jarvis o Friday. Para mi es muy importante que la IA ayude a los trabajos de las personas y que sea una herramienta que les ayude a mejorar su vida. 
+Soy Estudiante de la Licenciatura en Ciencia de Datos en el ITAM, apasionado por la Inteligencia Artificial y su potencial para crear soluciones que beneficien a las personas. 
+Uno de mis proyectos soñados es desarrollar una IA asistente similar a Jarvis o Friday. 
+En necesario que la IA sea una herramienta que ayude a las personas en su trabajo y en su vida, no que se los quite. 
 
 ## Intereses Profesionales
 <div class="skill-list">

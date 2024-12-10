@@ -5,26 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Bubblegum+Sans&display=swap');
 
 // Variables de color
-$primary-bg: #0B0C10;
-$secondary-color: #FFC400;
-$accent-color: #6A0DAD;
-$contrast-color: #E63946;
-$text-color: #C5C6C7;
-$soft-pink: #FFCCE5;
+$background-color: #333333;  // Gris carbón
+$primary-color: #007A5E;     // Verde ITAM
+$secondary-color: #5D3FD3;   // Morado intenso
+$text-color: #F5F5F5;        // Blanco apagado
 
 // Estilos personalizados
 body {
   line-height: 2.0;
-  font-family: 'Patrick Hand', cursive !important;
+  font-family: 'Patrick Hand';
   font-size: 18px;
-  background-color: $primary-bg;
+  background-color: $background-color;
   color: $text-color;
 }
 
 h1, h2, h3 {
-  font-family: 'Bubblegum Sans', cursive;
+  font-family: 'Bubblegum Sans';
   font-weight: 400;
-  color: $secondary-color;
+  color: $primary-color;
 }
 
 h1 {
@@ -55,40 +53,40 @@ p {
 }
 
 .skill-tag {
-  background: $accent-color;
+  background: $secondary-color;
   padding: 8px 16px;
   border-radius: 15px;
   font-size: 1.1em;
   transition: all 0.3s ease;
-  color: white;
+  color: $text-color;
   
   &:hover {
     transform: scale(1.05);
-    background: darken($accent-color, 10%);
+    background: darken($secondary-color, 10%);
   }
 }
 
 // Estilo para los enlaces
 a {
-  color: $contrast-color;
+  color: $primary-color;
   transition: color 0.3s ease;
   
   &:hover {
-    color: $accent-color;
+    color: $secondary-color;
     text-decoration: none;
   }
 }
 
 // Estilo para la sección de proyectos
 .project-card {
-  background: $soft-pink;
+  background: lighten($background-color, 10%);
   border: none;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
   padding: 25px;
   margin: 20px 0;
   border-radius: 8px;
   transition: transform 0.2s;
-  color: $primary-bg;
+  color: $text-color;
   
   &:hover {
     transform: translateY(-2px);
@@ -97,7 +95,7 @@ a {
   
   h3 {
     margin-bottom: 15px;
-    color: $accent-color;
+    color: $primary-color;
   }
   
   p {
@@ -121,13 +119,13 @@ header {
     
     a {
       display: block;
-      color: $contrast-color;
+      color: $primary-color;
       text-decoration: none;
       padding: 10px;
       
       small {
         font-size: 18px;
-        color: $secondary-color;
+        color: lighten($primary-color, 20%);
         display: block;
         margin-bottom: 5px;
         font-family: 'Bubblegum Sans', cursive;
@@ -141,12 +139,12 @@ header {
       }
       
       &:hover {
-        color: $accent-color;
+        color: $secondary-color;
         transform: scale(1.05);
         transition: transform 0.2s ease;
         
         strong {
-          color: $accent-color;
+          color: $secondary-color;
         }
       }
     }
