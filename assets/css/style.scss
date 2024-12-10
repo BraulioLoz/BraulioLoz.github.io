@@ -176,19 +176,16 @@ header {
 section {
   width: 600px;
   
-  // Para el texto en la sección clara (derecha)
-  color: $background-color;  // o puedes usar #000000 para negro puro
-  
   p {
-    color: inherit;  // heredará el color de la sección
+    color: #000000 !important;  // Forzamos negro para todos los párrafos
   }
 }
 
 // Para mantener otros elementos con sus colores específicos
 h1, h2, h3 {
-  color: $primary-color !important;  // mantiene los encabezados en verde ITAM
+  color: $primary-color !important;
 }
 
 .skill-tag {
-  color: $text-color !important;  // mantiene el texto de las etiquetas en blanco
+  color: $text-color !important;
 }
