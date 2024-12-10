@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Bubblegum+Sans&display=swap');
 @import "{{ site.theme }}";
 
 // Estilos personalizados
-body {
+body { //Esto es para cambiar el color de la letra en el body 
   color: #333;
   line-height: 2.0;
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: 'Patrick Hand', cursive;
   font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 400;
+  color: #2c3e50;
 }
 
 h1 {

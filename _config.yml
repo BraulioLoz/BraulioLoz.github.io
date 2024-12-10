@@ -7,7 +7,7 @@ title: Braulio Lozano Cuevas
 description: Estudiante de Ciencia de Datos | Entusiasta de la IA | Profesor de Inglés | ITAM
 
 # Redes sociales y contacto
-social:
+social: #Estos son los links de las redes sociales y aparecen en la parte de abajo de la pagina
   github: BraulioLoz
   linkedin: [Braulio Lozano]
   email: [brauliozc03@gmail.com]
