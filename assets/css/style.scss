@@ -110,22 +110,22 @@ header {
   p.view {
     margin: 0 0 25px;
     
-    a { //este es para los links de la pagina 
-      display: block;
-      color: #64b5f6; 
-      text-decoration: none;
-      padding: 10px;
+    a { 
+      display: block; 
+      color: #64b5f6;  
+      text-decoration: none; 
+      padding: 10px; 
       
-      small { 
-        font-size: 14px;
-        color: #999;
-        display: block;
-        margin-bottom: 5px;
-        font-family: 'Bubblegum Sans', cursive;
+      small {  //El texto será "GitHub", "LinkedIn" o "Email"
+        font-size: 18px; 
+        color: #999; 
+        display: block; 
+        margin-bottom: 5px; 
+        font-family: 'Bubblegum Sans', cursive; 
       }
       
       strong {  //este es para el texto del link que será "Braulio Lozano", "BraulioLoz" o "brauliozc03@gmail.com"
-        font-size: 18px; 
+        font-size: 20px; 
         display: block; 
         color: #00bfff;  
         font-family: 'Patrick Hand', cursive; 
