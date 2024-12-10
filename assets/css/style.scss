@@ -1,7 +1,70 @@
 @import "{{ site.theme }}";
 
-// Add any custom styles below
+// Estilos personalizados
 body {
   color: #333;
   line-height: 1.6;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-top: 1.5em;
+}
+
+// Estilo para las secciones de habilidades
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #f0f0f0;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+    background: #e0e0e0;
+  }
+}
+
+// Estilo para los enlaces
+a {
+  color: #3498db;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: #2980b9;
+    text-decoration: none;
+  }
+}
+
+// Estilo para la sección de proyectos
+.project-card {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border: none;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+}
+
+// Add a profile image section
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }

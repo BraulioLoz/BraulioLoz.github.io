@@ -1,6 +1,28 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
 
-title: Braulio Loz
-description: Personal portfolio and projects
+title: Braulio Lozano Cuevas
+description: Estudiante de Ciencia de Datos | Entusiasta de la IA | Profesor de Inglés | ITAM
+
+# Redes sociales y contacto
+social:
+  github: BraulioLoz
+  linkedin: [Braulio Lozano]
+  email: [brauliozc03@gmail.com]
+
+# Configuración del sitio
+lang: es
+timezone: America/Mexico_City
+
+# Metadatos para SEO
+author:
+  name: Braulio Lozano Cuevas
+  bio: Estudiante de Ciencia de Datos en el ITAM
+
+# Google Analytics (opcional)
+# google_analytics: [tu-id-de-tracking]
+
+# Add these to your existing _config.yml
+keywords: ciencia de datos, inteligencia artificial, ITAM
