@@ -1,4 +1,7 @@
----
----
-
 @import "{{ site.theme }}";
+
+// Add any custom styles below
+body {
+  color: #333;
+  line-height: 1.6;
+}
