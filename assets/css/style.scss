@@ -12,8 +12,8 @@ body {
   background: linear-gradient(
     90deg,
     #2b2b2b 0%,
-    #2b2b2b calc(50% - 1px),
-    #f5f5f5 calc(50% - 1px),
+    #2b2b2b 42%,
+    #f5f5f5 42%,
     #f5f5f5 100%
   );
   line-height: 2.0;
@@ -21,45 +21,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: #F5F5F5;
-}
-
-@media screen and (max-width: 960px) {
-  body {
-    background: linear-gradient(
-      90deg,
-      #2b2b2b 0%,
-      #2b2b2b 300px,
-      #f5f5f5 300px,
-      #f5f5f5 100%
-    );
-  }
-  
-  .wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background: #2b2b2b;
-  }
-  
-  .wrapper {
-    width: 90%;
-  }
-  
-  header {
-    width: 100%;
-    float: none;
-    position: static;
-  }
-  
-  section {
-    width: 100%;
-    float: none;
-    position: static;
-  }
 }
 
 // Estilos para todos los encabezados (Sobre mí, Intereses Profesionales, Hobbies y Pasiones)
