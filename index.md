@@ -8,13 +8,13 @@ layout: default
 
 
 <div class="skill-list">
-  <span class="skill-tag">Soy estudiante de la Licenciatura en Ciencia de Datos en el Instituto Tecnológico Autónomo de México (ITAM), apasionado por la Inteligencia Artificial y su potencial para crear soluciones que beneficien a las personas. He trabajado en proyectos con enfoque social, logrando dar soluciones a problemas sociales, además de herramientas que ayuden a la vida cotidiana de las personas.
+  <span class="skill-tag">
+    Soy estudiante de la Licenciatura en Ciencia de Datos en el Instituto Tecnológico Autónomo de México (ITAM), apasionado por la Inteligencia Artificial y su potencial para crear soluciones que beneficien a las personas. He trabajado en proyectos con enfoque social, logrando dar soluciones a problemas sociales, además de herramientas que ayuden a la vida cotidiana de las personas.
   <p>
   Soy una persona que se enfoca en el desarrollo de habilidades prácticas y comunicación en mí mismo y en los demás; busco evocar en las personas el sentimiento de crecimiento personal y profesional a través de la escucha activa, el trabajo en equipo y la empatía colectiva. 
   </p>
-  <p>
+  <br>
   Me impulsa la curiosidad de conocer más allá de lo que los datos nos muestran. 
-  </p>
   </span>
 </div>
 
@@ -25,9 +25,8 @@ layout: default
 <div class="skill-list">
   <span class="skill-tag">
   La Inteligencia Artificial es una herramienta útil de la tecnología de hoy en día, misma que viene a apoyar en la vida de las personas de forma profesional y personal sin deshumanizar lo que vivir conlleva.
-  <p>
+  <br>
   Uno de mis más grandes proyectos a futuro es desarrollar una IA asistente tomando como inspiración a Jarvis o Friday de Tony Stark.
-  </p>
   </span>
 </div>
 
@@ -63,9 +62,9 @@ layout: default
   <span class="skill-tag">🎲 Juegos de Mesa (Blood Rage)</span>
   <span class="skill-tag">📺 Ver series y películas</span>
   <span class="skill-tag">💃 Bailar</span>
+  <span class="skill-tag">🌟 Aprender</span>
   <span class="skill-tag">🧩 Resolver problemas (Acertijos, rompecabezas, etc.)</span>
   <span class="skill-tag">📜 Filosofía (Aunque no soy fan de la lectura extensa)</span>
-  <span class="skill-tag">🌟 Aprender</span>
 </div>
 
 
