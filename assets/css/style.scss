@@ -35,6 +35,8 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 // Estilo para las etiquetas individuales dentro de:
@@ -76,6 +78,8 @@ a {
   border-radius: 8px;
   transition: transform 0.2s;
   color: #F5F5F5;
+  text-align: left;
+  width: 100%;
   
   &:hover {
     transform: translateY(-2px);
@@ -89,6 +93,7 @@ a {
 
   p {
     color: #F5F5F5 !important;
+    text-align: left;
   }
 }
 
@@ -156,10 +161,14 @@ header {
 // Estilos para la sección principal de contenido
 section {
   width: 600px;
+  margin-left: 20px;
+  padding-right: 20px;
+  text-align: left;
   
   // Color del texto principal (Sobre mí, descripciones, etc.)
   p {
     color: #F5F5F5 !important;
+    text-align: left;
   }
 }
 
