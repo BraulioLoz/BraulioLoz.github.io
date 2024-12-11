@@ -135,15 +135,18 @@ header {
   width: 280px;  // Volvemos al ancho fijo original
   
   img {  // Estilos para las imágenes dentro del header
-    max-width: 100%;  // La imagen no será más ancha que su contenedor (300px)
-    border-radius: 8px;  // Redondea las esquinas de la imagen con un radio de 8px
-    margin-bottom: 10px;  // Agrega un espacio de 20px debajo de la imagen
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  // Agrega una sombra suave:
-                                            // - 0: sin desplazamiento horizontal
-                                            // - 4px: desplazamiento vertical
-                                            // - 8px: difuminado
-                                            // - rgba(0,0,0,0.1): color negro con 10% de opacidad
+    max-width: 120%;  // Aumentamos el ancho máximo más allá del contenedor
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     height: auto;
+    margin-left: -40px;  // Movemos la imagen hacia la izquierda
+    position: relative;  // Permitimos posicionamiento relativo
+  }
+
+  h1, p, .view {
+    margin-left: 0;  // Mantenemos el texto en su posición original
+    position: relative;  // Aseguramos que el texto mantenga su posición
   }
 }
 
@@ -173,28 +176,7 @@ h1, h2, h3 {
   width: 960px;
   margin: 0 auto;
   background: transparent;
-}
-
-header {
-  width: 280px;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  img {
-    width: 100%;
-    max-width: 280px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    height: auto;
-    margin-left: -20px;  // Mueve la imagen hacia la izquierda
-  }
-
-  h1, p.description {
-    margin-left: 0;  // Mantiene el texto en su posición original
-  }
+  position: relative;  // Añadimos posicionamiento relativo al wrapper
 }
 
 section {
