@@ -11,6 +11,8 @@ layout: default
   En necesario que la IA sea una herramienta que ayude a las personas en su trabajo y en su vida, no que se los quite. </span>
 </div>
 
+
+
 ## Intereses Profesionales
 <div class="skill-list">
   <span class="skill-tag">🤖 Inteligencia Artificial</span>
@@ -18,6 +20,8 @@ layout: default
   <span class="skill-tag">💻 Desarrollo de Software</span>
   <span class="skill-tag">📊 Análisis de Datos</span>
 </div>
+
+
 
 ## Hobbies y Pasiones
 <div class="skill-list">
@@ -27,12 +31,16 @@ layout: default
   <span class="skill-tag">Música (Inspector)</span>
 </div>
 
+
+
 ## Idiomas
 <div class="skill-list">
   <span class="skill-tag">🇲🇽 Español (Nativo)</span>
   <span class="skill-tag">🇺🇸 Inglés (Profesor)</span>
   <span class="skill-tag">🇫🇷 Francés (Aprendiendo)</span>
 </div>
+
+
 
 ## Proyectos
 <div class="project-card">
