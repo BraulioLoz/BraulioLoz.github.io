@@ -26,7 +26,7 @@ body {
 h1, h2, h3 {
   font-family: 'Bubblegum Sans';
   font-weight: 400;
-  color: #5A6351;
+  color: #718161;
 }
 
 // Contenedor para todas las listas de skills (usado en Intereses Profesionales, Hobbies y Pasiones, Idiomas)
@@ -56,7 +56,7 @@ h1, h2, h3 {
 
 // Estilo para todos los enlaces (GitHub, LinkedIn, Email)
 a {
-  color: #5A6351;
+  color: #718161;
   transition: color 0.3s ease;
   
   &:hover {
@@ -83,7 +83,7 @@ a {
   
   h3 {
     margin-bottom: 15px;
-    color: #5A6351;
+    color: #718161;
   }
 
   p {
@@ -99,14 +99,14 @@ header {
     // Estilo para los enlaces de contacto (GitHub, LinkedIn, Email)
     a {
       display: block;
-      color: #5A6351;
+      color: #718161;
       text-decoration: none;
       padding: 10px;
       
       // Texto pequeño arriba del enlace (ej: "GitHub")
       small {
         font-size: 18px;
-        color: #5A6351;
+        color: #718161;
         display: block;
         margin-bottom: 5px;
         font-family: 'Bubblegum Sans', cursive;
@@ -142,7 +142,7 @@ section {
 
 // Forzar colores específicos para elementos importantes
 h1, h2, h3 {
-  color: #5A6351 !important;
+  color: #718161 !important;
 }
 
 .skill-tag {
@@ -169,6 +169,6 @@ header {
   }
   
   &:active strong {
-    color: #5A6351;  // Feedback visual al hacer clic
+    color: #718161;  // Feedback visual al hacer clic
   }
 }
