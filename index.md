@@ -93,17 +93,25 @@ layout: default
   <p>• Colaboración en equipo para desarrollo de soluciones de movilidad</p>
   <p>• <a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a></p>
 
+  <br><hr style="border-top: 2px solid #718161; margin: 30px 0;"><br>
+
   <h3>🏆 Datatón "Movilidad y Mujeres" - 1er Lugar</h3>
   <p>• Proyecto ganador enfocado en el análisis de movilidad de mujeres en CDMX</p>
   <p>• Desarrollo de estudio de riesgo y propuestas de mejora</p>
   <p>• Trabajo en equipo para crear soluciones con impacto social</p>
 
-  <img src="assets/images/dataton.jpg" alt="Premio Datatón Movilidad y Mujeres" style="width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="text-align: center; margin: 30px 0;">
+    <img src="./assets/images/dataton.jpg" alt="Premio Datatón Movilidad y Mujeres" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+
+  <br><hr style="border-top: 2px solid #718161; margin: 30px 0;"><br>
 
   <h3>💻 Estructuras de Datos Avanzadas</h3>
   <p>• Implementación de estructuras de datos avanzadas en Java y Python</p>
   <p>• Ejercicios y ejemplos prácticos del curso</p>
   <p>• <a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank">Ver proyecto en GitHub</a></p>
+
+  <br><hr style="border-top: 2px solid #718161; margin: 30px 0;"><br>
 
   <h3>✨ Próximamente más...</h3>
 </div>
