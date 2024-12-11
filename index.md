@@ -16,7 +16,7 @@ layout: default
   </span>
 </div>
 
-<div class="about-me">
+<div class="skill-list">
   <span class="skill-tag">
   La Inteligencia Artificial es una herramienta útil de la tecnología de hoy en día, misma que viene a apoyar en la vida de las personas de forma profesional y personal sin deshumanizar lo que vivir conlleva.
   <p>
