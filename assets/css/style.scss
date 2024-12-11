@@ -164,10 +164,10 @@ header {
 section {
   float: right;
   width: 600px;
-  margin-left: 320px;  // Esto es clave para mover el contenido a la derecha
+  margin-left: 320px;  // Espacio desde el lado izquierdo
   padding-bottom: 50px;
   padding-right: 20px;
-  text-align: left;
+  text-align: left;  // Alineación del texto
   
   // Color del texto principal (Sobre mí, descripciones, etc.)
   p {
