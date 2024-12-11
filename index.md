@@ -88,32 +88,24 @@ layout: default
 
 ## Proyectos
 <div class="project-card">
-  <span class="skill-tag">
-    🚇 <strong>MetroFlow - Análisis de Movilidad en el Metro CDMX</strong><br>
-    • Análisis espacial y estudio de riesgo para mejorar la movilidad en el Metro CDMX<br>
-    • Colaboración en equipo para desarrollo de soluciones de movilidad<br>
-    • <a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a>
-  </span>
+  <h3>🚇 MetroFlow - Análisis de Movilidad en el Metro CDMX</h3>
+  <p>• Análisis espacial y estudio de riesgo para mejorar la movilidad en el Metro CDMX</p>
+  <p>• Colaboración en equipo para desarrollo de soluciones de movilidad</p>
+  <p>• <a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a></p>
 
-  <span class="skill-tag">
-    🏆 <strong>Datatón "Movilidad y Mujeres" - 1er Lugar</strong><br>
-    • Proyecto ganador enfocado en el análisis de movilidad de mujeres en CDMX<br>
-    • Desarrollo de estudio de riesgo y propuestas de mejora<br>
-    • Trabajo en equipo para crear soluciones con impacto social
-  </span>
+  <h3>🏆 Datatón "Movilidad y Mujeres" - 1er Lugar</h3>
+  <p>• Proyecto ganador enfocado en el análisis de movilidad de mujeres en CDMX</p>
+  <p>• Desarrollo de estudio de riesgo y propuestas de mejora</p>
+  <p>• Trabajo en equipo para crear soluciones con impacto social</p>
 
   <img src="assets/images/dataton.jpg" alt="Premio Datatón Movilidad y Mujeres" style="width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <span class="skill-tag">
-    💻 <strong>Estructuras de Datos Avanzadas</strong><br>
-    • Implementación de estructuras de datos avanzadas en Java y Python<br>
-    • Ejercicios y ejemplos prácticos del curso<br>
-    • <a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank">Ver proyecto en GitHub</a>
-  </span>
+  <h3>💻 Estructuras de Datos Avanzadas</h3>
+  <p>• Implementación de estructuras de datos avanzadas en Java y Python</p>
+  <p>• Ejercicios y ejemplos prácticos del curso</p>
+  <p>• <a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank">Ver proyecto en GitHub</a></p>
 
-  <span class="skill-tag">
-    ✨ <strong>Próximamente más...</strong>
-  </span>
+  <h3>✨ Próximamente más...</h3>
 </div>
 
 
