@@ -5,6 +5,12 @@ layout: default
 ## Itamita por diversión 
 
 ## Sobre mí 
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="./assets/images/profile.jpg" alt="Braulio Lozano" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
+
 <div class="skill-list">
   <span class="skill-tag">Soy estudiante de la Licenciatura en Ciencia de Datos en el Instituto Tecnológico Autónomo de México (ITAM), apasionado por la Inteligencia Artificial y su potencial para crear soluciones que beneficien a las personas. He trabajado en proyectos con enfoque social, logrando dar soluciones a problemas sociales, además de herramientas que ayuden a la vida cotidiana de las personas.
   <p>
