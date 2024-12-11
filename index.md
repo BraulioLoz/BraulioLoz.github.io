@@ -87,16 +87,16 @@ layout: default
 
 
 ## Proyectos
-<div class="skill-list">
+<div class="project-card">
   <span class="skill-tag">
-    🚇 <strong style="color: #718161;">MetroFlow - Análisis de Movilidad en el Metro CDMX</strong><br>
+    🚇 <strong>MetroFlow - Análisis de Movilidad en el Metro CDMX</strong><br>
     • Análisis espacial y estudio de riesgo para mejorar la movilidad en el Metro CDMX<br>
     • Colaboración en equipo para desarrollo de soluciones de movilidad<br>
-    • <a href="https://github.com/juan-ca6/metroFlow" target="_blank" style="color: #718161;">Ver proyecto en GitHub</a>
+    • <a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a>
   </span>
 
   <span class="skill-tag">
-    🏆 <strong style="color: #718161;">Datatón "Movilidad y Mujeres" - 1er Lugar</strong><br>
+    🏆 <strong>Datatón "Movilidad y Mujeres" - 1er Lugar</strong><br>
     • Proyecto ganador enfocado en el análisis de movilidad de mujeres en CDMX<br>
     • Desarrollo de estudio de riesgo y propuestas de mejora<br>
     • Trabajo en equipo para crear soluciones con impacto social
@@ -105,14 +105,14 @@ layout: default
   <img src="assets/images/dataton.jpg" alt="Premio Datatón Movilidad y Mujeres" style="width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <span class="skill-tag">
-    💻 <strong style="color: #718161;">Estructuras de Datos Avanzadas</strong><br>
+    💻 <strong>Estructuras de Datos Avanzadas</strong><br>
     • Implementación de estructuras de datos avanzadas en Java y Python<br>
     • Ejercicios y ejemplos prácticos del curso<br>
-    • <a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank" style="color: #718161;">Ver proyecto en GitHub</a>
+    • <a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank">Ver proyecto en GitHub</a>
   </span>
 
   <span class="skill-tag">
-    ✨ <strong style="color: #718161;">Próximamente más...</strong>
+    ✨ <strong>Próximamente más...</strong>
   </span>
 </div>
 
