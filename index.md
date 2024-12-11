@@ -92,7 +92,7 @@ layout: default
 ## Proyectos
 <div class="project-card">
   <h3>🚇 MetroFlow - Análisis de Movilidad en el Metro CDMX</h3>
-  <p>• Análisis espacial y estudio de riesgo para mejorar la movilidad en el Metro CDMX</p>
+  <p>• Análisis espacial y herramienta de ayuda para la movilidad en el Metro CDMX</p>
   <p>• Colaboración en equipo para desarrollo de soluciones de movilidad</p>
   <p>• <a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a></p>
 </div>
