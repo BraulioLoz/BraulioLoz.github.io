@@ -35,11 +35,12 @@ layout: default
 ## Intereses Profesionales
 <div class="skill-list">
   <span class="skill-tag">🤖 Inteligencia Artificial</span>
-  <span class="skill-tag">🧠 Machine Learning</span>
-  <span class="skill-tag">💻 Desarrollo de Aplicaciones</span>
-  <span class="skill-tag">📊 Análisis de Datos</span>
-  <span class="skill-tag">🎓 Enseñar (STEM, inglés)</span>
+  <span class="skill-tag">📚 Machine Learning</span>
+  <span class="skill-tag">🛠️ Desarrollo de Aplicaciones</span>
+  <span class="skill-tag">📈 Análisis de Datos</span>
+  <span class="skill-tag">👩‍🏫 Enseñar (STEM, inglés)</span>
 </div>
+
 
 ## Atributos y Características
 <div class="skill-list">
@@ -55,17 +56,18 @@ layout: default
 
 ## Hobbies y Pasiones
 <div class="skill-list">
-  <span class="skill-tag">Star Wars</span>
-  <span class="skill-tag">League of Legends (Top laner)</span>
-  <span class="skill-tag">Basketball (GSW)</span>
-  <span class="skill-tag">Música (Inspector)</span>
-  <span class="skill-tag">Juegos de Mesa (Blood Rage)</span>
-  <span class="skill-tag">Ver series y películas </span>
-  <span class="skill-tag">Bailar</span>
-  <span class="skill-tag">Resolver problemas (Acertijos, rompecabezas, etc.)</span> 
-  <span class="skill-tag">Filosofía (Aunque no soy fan de la lectura extensa)</span>
-  <span class="skill-tag">Aprender </span>
+  <span class="skill-tag">🌌 Star Wars</span>
+  <span class="skill-tag">⚔️ League of Legends (Top laner)</span>
+  <span class="skill-tag">🏀 Basketball (GSW)</span>
+  <span class="skill-tag">🎵 Música (Inspector)</span>
+  <span class="skill-tag">🎲 Juegos de Mesa (Blood Rage)</span>
+  <span class="skill-tag">📺 Ver series y películas</span>
+  <span class="skill-tag">💃 Bailar</span>
+  <span class="skill-tag">🧩 Resolver problemas (Acertijos, rompecabezas, etc.)</span>
+  <span class="skill-tag">📜 Filosofía (Aunque no soy fan de la lectura extensa)</span>
+  <span class="skill-tag">🌟 Aprender</span>
 </div>
+
 
 ## Soft Skills
 <div class="skill-list">
@@ -86,8 +88,23 @@ layout: default
 
 ## Proyectos
 <div class="project-card">
-  <h3>Próximamente...</h3>
-  <p>He trabajado en varios proyectos, pero no los he compartido aquí.</p>
+  <h3>🚇 MetroFlow - Análisis de Movilidad en el Metro CDMX</h3>
+  <p>Proyecto ganador del 1er lugar en el Datatón "Movilidad y Mujeres". Realizamos un análisis espacial y estudio de riesgo para mejorar la movilidad de las mujeres en el Sistema de Transporte Colectivo Metro de la CDMX.</p>
+  <p><a href="https://github.com/juan-ca6/metroFlow" target="_blank">Ver proyecto en GitHub</a></p>
+</div>
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="./assets/images/dataton_premio.jpg" alt="Premio Datatón Movilidad y Mujeres" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
+<div class="project-card">
+  <h3>💻 Estructuras de Datos Avanzadas</h3>
+  <p>Implementación de estructuras de datos avanzadas en Java y Python, incluyendo ejemplos prácticos y ejercicios desarrollados durante el curso.</p>
+  <p><a href="https://github.com/BraulioLoz/EstDatAvJava" target="_blank">Ver proyecto en GitHub</a></p>
+</div>
+
+<div class="project-card">
+  <h3>Próximamente más...</h3>
 </div>
 
 
