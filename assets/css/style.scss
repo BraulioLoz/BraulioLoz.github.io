@@ -1,9 +1,7 @@
----
----
-
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Bubblegum+Sans&display=swap');
 
+// Estilo general del cuerpo y división del fondo
 body {
   position: relative;
   margin: 0;
@@ -11,8 +9,8 @@ body {
   background: linear-gradient(
     90deg,
     #484848 0%,
-    #484848 41%,
-    #f5f5f5 41%,
+    #484848 42%,
+    #f5f5f5 42%,
     #f5f5f5 100%
   );
   line-height: 2.0;
@@ -21,65 +19,50 @@ body {
   color: #F5F5F5;
 }
 
+// Estilos para todos los encabezados (Sobre mí, Intereses Profesionales, Hobbies y Pasiones)
 h1, h2, h3 {
   font-family: 'Bubblegum Sans';
   font-weight: 400;
-  color: #007a64;
+  color: #007A5E;
 }
 
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 1em;
-}
-
-h2 {
-  font-size: 2em;
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-top: 1.5em;
-}
-
-p {
-  margin-bottom: 1.5em;
-}
-
-// Estilo para las secciones de habilidades
+// Contenedor para todas las listas de skills (usado en Intereses Profesionales, Hobbies y Pasiones, Idiomas)
 .skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-//esta seccion es para las etiquetas de las habilidades
+
+// Estilo para las etiquetas individuales dentro de:
+// - Intereses Profesionales (IA, Machine Learning, etc.)
+// - Hobbies (Star Wars, League of Legends, etc.)
+// - Idiomas (Español, Inglés, Francés)
 .skill-tag {
-  background: #aa97f9;
+  background: #5D3FD3;
   padding: 8px 16px;
   border-radius: 15px;
   font-size: 1.1em;
   transition: all 0.3s ease;
   color: #F5F5F5;
-  //este color es para el color de la etiqueta cuando se pasa el mouse por encima
+  
   &:hover {
     transform: scale(1.05);
     background: #4B32A8;
   }
 }
 
-// Estilo para los enlaces
+// Estilo para todos los enlaces (GitHub, LinkedIn, Email)
 a {
   color: #007A5E;
   transition: color 0.3s ease;
   
   &:hover {
-    color: #5D3FD3;
+    color: #F5F5F5;
     text-decoration: none;
   }
 }
 
-// Estilo para la sección de proyectos
+// Estilo para las tarjetas de proyectos en la sección "Proyectos"
 .project-card {
   background: #404040;
   border: none;
@@ -99,34 +82,21 @@ a {
     margin-bottom: 15px;
     color: #007A5E;
   }
-  
-  p {
-    font-size: 1.1em;
-  }
 }
 
-// Add a profile image section
-.profile-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 20px auto;
-  display: block;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
+// Estilos para el encabezado lateral (donde están los enlaces de contacto)
 header {
-  background: transparent;
-  color: #F5F5F5;
   p.view {
     margin: 0 0 25px;
     
+    // Estilo para los enlaces de contacto (GitHub, LinkedIn, Email)
     a {
       display: block;
       color: #007A5E;
       text-decoration: none;
       padding: 10px;
       
+      // Texto pequeño arriba del enlace (ej: "GitHub")
       small {
         font-size: 18px;
         color: #009E77;
@@ -135,6 +105,7 @@ header {
         font-family: 'Bubblegum Sans', cursive;
       }
       
+      // Texto principal del enlace (ej: "@BraulioLoz")
       strong {
         font-size: 20px;
         display: block;
@@ -143,19 +114,35 @@ header {
       }
       
       &:hover {
-        color: #5D3FD3;
+        //el color es el color del enlace cuando se pasa el mouse por encima
+        color: #F5F5F5;
         transform: scale(1.05);
         transition: transform 0.2s ease;
-        
-        strong {
-          color: #5D3FD3;
-        }
       }
     }
   }
 }
 
-// Ajustar el ancho del contenedor principal si es necesario
+// Estilos para la sección principal de contenido
+section {
+  width: 600px;
+  
+  // Color del texto principal (Sobre mí, descripciones, etc.)
+  p {
+    color: #000000 !important;
+  }
+}
+
+// Forzar colores específicos para elementos importantes
+h1, h2, h3 {
+  color: #007A5E !important;
+}
+
+.skill-tag {
+  color: #F5F5F5 !important;
+}
+
+// Configuración del layout principal
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -166,19 +153,15 @@ header {
   width: 300px;
 }
 
-section {
-  width: 600px;
+// Estilo específico para el enlace de email
+#email-copy {
+  cursor: copy;  // Cambia el cursor para indicar que es copiable
   
-  p {
-    color: #f5f5f5 !important;  // Forzamos negro para todos los párrafos
+  &:hover strong {
+    color: #F5F5F5;
   }
-}
-
-// Para mantener otros elementos con sus colores específicos
-h1, h2, h3 {
-  color: #007A5E !important;
-}
-
-.skill-tag {
-  color: #F5F5F5 !important;
+  
+  &:active strong {
+    color: #009E77;  // Feedback visual al hacer clic
+  }
 }

@@ -33,7 +33,7 @@
         </p>
 
         <p class="view">
-          <a href="mailto:brauliozc03@gmail.com">
+          <a href="#" id="email-copy" onclick="copyEmail(event)">
             <small>Email</small>
             <strong>brauliozc03@gmail.com</strong>
           </a>
@@ -47,5 +47,16 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+    function copyEmail(e) {
+        e.preventDefault();
+        const email = "brauliozc03@gmail.com";
+        navigator.clipboard.writeText(email).then(() => {
+            alert("Email copiado al portapapeles!");
+        }).catch(err => {
+            console.error('Error al copiar el email: ', err);
+        });
+    }
+    </script>
   </body>
 </html>
