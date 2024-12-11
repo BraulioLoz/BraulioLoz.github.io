@@ -132,17 +132,18 @@ header {
     }
   }
   
-  width: 300px;  // Establece un ancho fijo de 300 píxeles para el encabezado
+  width: 280px;  // Establece un ancho fijo de 300 píxeles para el encabezado
   
   img {  // Estilos para las imágenes dentro del header
     max-width: 100%;  // La imagen no será más ancha que su contenedor (300px)
     border-radius: 8px;  // Redondea las esquinas de la imagen con un radio de 8px
-    margin-bottom: 20px;  // Agrega un espacio de 20px debajo de la imagen
+    margin-bottom: 10px;  // Agrega un espacio de 20px debajo de la imagen
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);  // Agrega una sombra suave:
                                             // - 0: sin desplazamiento horizontal
                                             // - 4px: desplazamiento vertical
                                             // - 8px: difuminado
                                             // - rgba(0,0,0,0.1): color negro con 10% de opacidad
+    height: auto;
   }
 }
 
