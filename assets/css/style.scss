@@ -94,10 +94,6 @@ a {
 
 // Estilos para el encabezado lateral (donde están los enlaces de contacto)
 header {
-  position: absolute;
-  left: 0;
-  padding-left: 20px;
-  
   p.view {
     margin: 0 0 25px;
     
@@ -136,7 +132,7 @@ header {
     }
   }
   
-  width: 280px;  // Establece un ancho fijo de 300 píxeles para el encabezado
+  width: 280px;  // Volvemos al ancho fijo original
   
   img {  // Estilos para las imágenes dentro del header
     max-width: 100%;  // La imagen no será más ancha que su contenedor (300px)
@@ -172,13 +168,28 @@ h1, h2, h3 {
 
 // Configuración del layout principal
 .wrapper {
+  display: flex;
+  align-items: flex-start;
   width: 960px;
   margin: 0 auto;
   background: transparent;
 }
 
 header {
-  width: 300px;
+  width: 280px;
+  margin-right: 20px;
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: auto;
+  }
+}
+
+section {
+  flex: 1;
 }
 
 // Estilo específico para el enlace de email
