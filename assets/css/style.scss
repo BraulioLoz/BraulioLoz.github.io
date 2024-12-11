@@ -12,6 +12,8 @@ body {
   background: linear-gradient(
     90deg,
     #2b2b2b 0%,
+    #2b2b2b 42%,
+    #f5f5f5 42%,
     #2b2b2b 41%,
     #f5f5f5 41%,
     #f5f5f5 100%
@@ -35,8 +37,6 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: flex-start;
-  text-align: left;
 }
 
 // Estilo para las etiquetas individuales dentro de:
@@ -50,7 +50,7 @@ h1, h2, h3 {
   font-size: 1.1em;
   transition: all 0.3s ease;
   color: #F5F5F5;
-  
+
   &:hover {
     transform: scale(1.05);
     background: #2c2268;
@@ -61,7 +61,7 @@ h1, h2, h3 {
 a {
   color: #718161;
   transition: color 0.3s ease;
-  
+
   &:hover {
     color: #F5F5F5;
     text-decoration: none;
@@ -78,14 +78,12 @@ a {
   border-radius: 8px;
   transition: transform 0.2s;
   color: #F5F5F5;
-  text-align: left;
-  width: 100%;
-  
+
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
+
   h3 {
     margin-bottom: 15px;
     color: #718161;
@@ -93,44 +91,21 @@ a {
 
   p {
     color: #F5F5F5 !important;
-    text-align: left;
   }
 }
 
 // Estilos para el encabezado lateral (donde están los enlaces de contacto)
 header {
-  width: 280px;
-  float: left;
-  position: fixed;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  img {
-    width: 100%;
-    max-width: 280px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    height: auto;
-    margin-left: -20px;  // Mueve la imagen hacia la izquierda
-  }
-
-  h1, p.description {
-    margin-left: 0;  // Mantiene el texto en su posición original
-  }
-
   p.view {
     margin: 0 0 25px;
-    
+
     // Estilo para los enlaces de contacto (GitHub, LinkedIn, Email)
     a {
       display: block;
       color: #718161;
       text-decoration: none;
       padding: 10px;
-      
+
       // Texto pequeño arriba del enlace (ej: "GitHub")
       small {
         font-family: 'Lora', serif;
@@ -140,7 +115,7 @@ header {
         display: block;
         margin-bottom: 5px;
       }
-      
+
       // Texto principal del enlace (ej: "@BraulioLoz")
       strong {
         font-family: 'Lora', serif;
@@ -149,7 +124,7 @@ header {
         display: block;
         color: #F5F5F5;
       }
-      
+
       &:hover {
         //el color es el color del enlace cuando se pasa el mouse por encima
         color: #F5F5F5;
@@ -162,17 +137,11 @@ header {
 
 // Estilos para la sección principal de contenido
 section {
-  float: right;
   width: 600px;
-  margin-left: 320px;  // Espacio desde el lado izquierdo
-  padding-bottom: 50px;
-  padding-right: 20px;
-  text-align: left;  // Alineación del texto
-  
+
   // Color del texto principal (Sobre mí, descripciones, etc.)
   p {
     color: #F5F5F5 !important;
-    text-align: left;
   }
 }
 
@@ -189,24 +158,21 @@ h1, h2, h3 {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
+  background: transparent;
 }
 
-section {
-  flex: 1;
-  margin-left: 20px;  // Espacio entre la columna negra y el contenido principal
+header {
+  width: 300px;
 }
 
 // Estilo específico para el enlace de email
 #email-copy {
   cursor: copy;  // Cambia el cursor para indicar que es copiable
-  
+
   &:hover strong {
     color: #F5F5F5;
   }
-  
+
   &:active strong {
     color: #718161;  // Feedback visual al hacer clic
   }
