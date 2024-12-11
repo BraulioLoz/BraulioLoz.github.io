@@ -44,7 +44,7 @@ h1, h2, h3 {
 .skill-tag {
   background: #525d48; //este antes era morado 
   padding: 8px 16px;
-  border-radius: 15px;
+  border-radius: 0;
   font-size: 1.1em;
   transition: all 0.3s ease;
   color: #F5F5F5;
@@ -174,4 +174,9 @@ header {
   &:active strong {
     color: #718161;  // Feedback visual al hacer clic
   }
+}
+
+h2 {
+  margin-bottom: 2rem;  // Aumenta el espacio entre el título y los elementos debajo
+  margin-top: 3rem;     // Mantiene el espacio que ya teníamos arriba
 }
