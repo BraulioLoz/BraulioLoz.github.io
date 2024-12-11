@@ -23,41 +23,6 @@ body {
   color: #F5F5F5;
 }
 
-// Agregar media queries para diferentes tamaños de pantalla
-@media screen and (max-width: 960px) {
-  body {
-    background: linear-gradient(
-      90deg,
-      #2b2b2b 0%,
-      #2b2b2b 300px,  // Ajustado al ancho del header
-      #f5f5f5 300px,
-      #f5f5f5 100%
-    );
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background: #2b2b2b;  // En móviles, fondo completamente oscuro
-  }
-  
-  .wrapper {
-    width: 90%;
-  }
-  
-  header {
-    width: 100%;
-    float: none;
-    position: static;
-  }
-  
-  section {
-    width: 100%;
-    float: none;
-    position: static;
-  }
-}
-
 // Estilos para todos los encabezados (Sobre mí, Intereses Profesionales, Hobbies y Pasiones)
 h1, h2, h3 {
   font-family: 'Lora', serif;
