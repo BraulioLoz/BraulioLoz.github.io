@@ -102,7 +102,7 @@ layout: default
 </div>
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="./assets/images/dataton.JPG" alt="Braulio Lozano" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="./assets/images/dataton.JPG" alt="Braulio Lozano" style="max-width: 35%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 <div class="project-card">
