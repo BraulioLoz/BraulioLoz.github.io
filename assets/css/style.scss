@@ -94,6 +94,10 @@ a {
 
 // Estilos para el encabezado lateral (donde están los enlaces de contacto)
 header {
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  
   p.view {
     margin: 0 0 25px;
     
