@@ -11,14 +11,11 @@ layout: default
   Soy una persona que se enfoca en el desarrollo de habilidades prácticas y comunicación en mí mismo y en los demás; busco evocar en las personas el sentimiento de crecimiento personal y profesional a través de la escucha activa, el trabajo en equipo y la empatía colectiva. 
   <br>
   Me impulsa la curiosad de conocer más alla de lo que los datos nos muestran. 
-  </span>
-</div>
-
-<div class="skill-list">
-  <span class="skill-tag">
+  <p>
   La Inteligencia Artificial es una herramienta útil de la tecnología de hoy en dia, misma que viene a apoyar en la vida de las personas de forma profesional y personal sin deshumanizar lo que vivir conlleva.
   <br>
   Uno de mis más grandes proyectos a futuro es desarrollar una IA asistente tomando como inspiración a Jarvis o Friday de Tony Stark .
+  </p>
   </span>
 </div>
 
