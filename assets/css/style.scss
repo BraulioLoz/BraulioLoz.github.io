@@ -100,6 +100,8 @@ a {
 // Estilos para el encabezado lateral (donde están los enlaces de contacto)
 header {
   width: 280px;
+  float: left;
+  position: fixed;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
@@ -160,8 +162,10 @@ header {
 
 // Estilos para la sección principal de contenido
 section {
+  float: right;
   width: 600px;
-  margin-left: 20px;
+  margin-left: 320px;  // Esto es clave para mover el contenido a la derecha
+  padding-bottom: 50px;
   padding-right: 20px;
   text-align: left;
   
@@ -187,6 +191,7 @@ h1, h2, h3 {
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
+  position: relative;
 }
 
 section {
