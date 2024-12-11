@@ -56,9 +56,9 @@ layout: default
   <span class="skill-tag">Juegos de Mesa (Blood Rage)</span>
   <span class="skill-tag">Ver series y películas </span>
   <span class="skill-tag">Bailar</span>
-  <span class="skill-tag">Resolver problemas (Acertijos, rompecabezas, etc.)</span>
-  <span class="skill-tag">Aprender </span> 
+  <span class="skill-tag">Resolver problemas (Acertijos, rompecabezas, etc.)</span> 
   <span class="skill-tag">Filosofía (Aunque no soy fan de la lectura extensa)</span>
+  <span class="skill-tag">Aprender </span>
 </div>
 
 ## Soft Skills
