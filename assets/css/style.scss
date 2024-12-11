@@ -11,8 +11,8 @@ body {
   background: linear-gradient(
     90deg,
     #484848 0%,
-    #484848 40%,
-    #f5f5f5 40%,
+    #484848 41%,
+    #f5f5f5 41%,
     #f5f5f5 100%
   );
   line-height: 2.0;
@@ -170,7 +170,7 @@ section {
   width: 600px;
   
   p {
-    color: #000000 !important;  // Forzamos negro para todos los párrafos
+    color: #f5f5f5 !important;  // Forzamos negro para todos los párrafos
   }
 }
 
