@@ -11,6 +11,7 @@ layout: default
   Soy una persona que se enfoca en el desarrollo de habilidades prácticas y comunicación en mí mismo y en los demás; busco evocar en las personas el sentimiento de crecimiento personal y profesional a través de la escucha activa, el trabajo en equipo y la empatía colectiva. 
   <br>
   Me impulsa la curiosad de conocer más alla de lo que los datos nos muestran. 
+  </span>
 </div>
 
 <div class="skill-list">
